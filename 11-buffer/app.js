@@ -9,7 +9,7 @@ console.log(buf[1]);
 console.log(buf.toString());
 
 // create
-const buf2 = Buffer.alloc(2);
+const buf2 = Buffer.alloc(2); // 초기화
 const buf3 = Buffer.allocUnsafe(2) // fast
 buf2[0] = 72;
 buf2[1] = 105;
